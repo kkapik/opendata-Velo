@@ -1,10 +1,24 @@
 import matplotlib.pyplot as plt
 import json
+import random
+from collections import OrderedDict
 
-def plot(dict):
-    plt.pie(dict.values(), labels = dict.keys())
-    plt.show()
+def plotpie(dict, name):
+    if None in dict:
+        dict.pop(None)
+    plt.figure(name)
+    plt.pie(dict.values(), labels = dict.keys(),autopct='%1.1f%%')
     return None
+
+def plotbar(dict):
+    plt.figure("Année de livraison")
+    dict.pop(None)
+    sorting = sorted(dict.keys())
+    x = []
+    for s in sorting:
+        x.append(dict[s])
+    plt.bar(sorting, x )
+    plt.show()
 
 
 def main():
@@ -36,15 +50,16 @@ def main():
             longueurcalculee += v['longueurcalculee']
 
     print("Nombre de piste sur le réseau super structurant :" , nbr_piste_super_struct)
-    plot(localisation)
-    plot(typeamenagement)
-    plot(typeamenagement2)
-    plot(typologiepiste)
-    plot(positionnement)
-    plot(environnement)
-    plot(reglementation)
-    plot(zonecirculationapaisee)
-    plot(anneelivraison)
+    plotpie(localisation, "Localisation")
+    plotpie(typeamenagement, "Type d'aménagement")
+    plotpie(typeamenagement2, "Type d'aménagement 2")
+    plotpie(typologiepiste, "Typologie de piste")
+    plotpie(positionnement, "Positionnement")
+    plotpie(environnement, "Environnement")
+    plotpie(reglementation, "Réglementation")
+    plotpie(zonecirculationapaisee, "Zone de Circulation apaisée")
+    plotbar(anneelivraison)
+    plt.show()
     print(longueurcalculee)
     return None
 
