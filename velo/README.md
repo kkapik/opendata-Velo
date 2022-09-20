@@ -8,7 +8,7 @@ Les données utilisées pour cet analyse sont :
 * [Aménagements cyclables de la Métropole de Lyon](https://data.grandlyon.com/jeux-de-donnees/amenagements-cyclables-metropole-lyon/info)
 * [Plan vélo de la Métropole de Lyon](https://data.grandlyon.com/jeux-de-donnees/plan-velo-metropole-lyon/info)
 
-Les données ont été récupérées le 20/09/2022
+*Les données ont été récupérées le 20/09/2022*
 
 ## Aménagements super structurant
 
@@ -20,6 +20,7 @@ Les chiffres clés de l'aménagement cyclables à Lyon :
 * **Année de livraison :**
 
 ![Année de livraison](./graph/anneelivraison.png)
+</p>
 
 *135 données ne précise pas l'année de livraison (soit 19% des données)*
 
@@ -27,13 +28,18 @@ Hypothèse à creuser : 2020 corona piste qui ont été maintenue ou bien nouvea
 
 * **Localisation :**
 
+<p align="center">
 ![Localisation](./graph/localisation.png)
+</p>
 
 *1 donnée ne précise pas la localisation (soit 0% des données)*
 
 * **Type d'aménagement :**
 
+<p align="center">
+
 ![Type d'aménagement](./graph/typeamenagement.png)
+</p>
 
 *0 donnée ne précise pas le type d'aménagement (soit 0% des données)*
 
@@ -43,7 +49,10 @@ Les couloirs de bus partagés sont majoritairement non élargi. Ce n'est pas id�
 
 * **Typologie de piste :**
 
+<p align="center">
+
 ![Typologie de Piste](./graph/typologie.png)
+</p>
 
 *475 données ne précisent pas la typologie de piste (soit 66,8% des données)*
 
@@ -53,7 +62,10 @@ N.B. : Une précision est nécessaire sur ce qui est considéré comme sur le tr
 
 * **Environnement :**
 
+<p align="center">
+
 ![Environnement](./graph/environnement.png)
+</p>
 
 *1 donnée ne précise pas l'environnement (soit 0% des données)*
 
@@ -61,19 +73,28 @@ Rien de très surprenant ici. L'immense majorité des axes de circulation pour l
 
 * **Positionnement :**
 
+<p align="center">
+
 ![Positionnement](./graph/positionnement.png)
+</p>
 
 *0 donnée ne précise pas le positionnement (soit 0% des données)*
 
 * **Réglementation :**
 
+<p align="center">
+
 ![Réglementation](./graph/reglementation.png)
+</p>
 
 *24 données ne précisent pas la réglementation (soit 3,3% des données)*
 
 * **Zone de circulation apaisée :**
 
+<p align="center">
+
 ![Zone de circulation apaisée](./graph/zonecircu.png)
+</p>
 
 *636 données ne précisent pas la réglementation (soit 89,5% des données)*
 
