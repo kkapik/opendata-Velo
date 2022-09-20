@@ -5,14 +5,14 @@ from collections import OrderedDict
 
 def plotpie(dict, name):
     if None in dict:
-        dict.pop(None)
+        print(name, dict.pop(None))
     plt.figure(name)
     plt.pie(dict.values(), labels = dict.keys(),autopct='%1.1f%%')
     return None
 
 def plotbar(dict):
     plt.figure("Année de livraison")
-    dict.pop(None)
+    print(dict.pop(None))
     sorting = sorted(dict.keys())
     x = []
     for s in sorting:
