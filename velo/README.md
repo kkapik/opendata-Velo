@@ -8,7 +8,7 @@ Les données utilisées pour cet analyse sont :
 * [Aménagements cyclables de la Métropole de Lyon](https://data.grandlyon.com/jeux-de-donnees/amenagements-cyclables-metropole-lyon/info)
 * [Plan vélo de la Métropole de Lyon](https://data.grandlyon.com/jeux-de-donnees/plan-velo-metropole-lyon/info)
 
-*Les données ont été récupérées le 20/09/2022*
+Les données ont été récupérées le 20/09/2022
 
 ## Aménagements super structurant
 
@@ -19,7 +19,8 @@ Les chiffres clés de l'aménagement cyclables à Lyon :
 ### Quelques graphiques
 * **Année de livraison :**
 
-![Année de livraison](./graph/anneelivraison.png)
+<p align="center">
+  <img src="./graph/anneelivraison.png" alt="Année de livraison">
 </p>
 
 *135 données ne précise pas l'année de livraison (soit 19% des données)*
@@ -29,7 +30,7 @@ Hypothèse à creuser : 2020 corona piste qui ont été maintenue ou bien nouvea
 * **Localisation :**
 
 <p align="center">
-![Localisation](./graph/localisation.png)
+  <img src="./graph/localisation.png" alt="Localisation">
 </p>
 
 *1 donnée ne précise pas la localisation (soit 0% des données)*
@@ -37,8 +38,7 @@ Hypothèse à creuser : 2020 corona piste qui ont été maintenue ou bien nouvea
 * **Type d'aménagement :**
 
 <p align="center">
-
-![Type d'aménagement](./graph/typeamenagement.png)
+  <img src="./graph/typeamenagement.png" alt="Type d'aménagement">
 </p>
 
 *0 donnée ne précise pas le type d'aménagement (soit 0% des données)*
@@ -50,8 +50,7 @@ Les couloirs de bus partagés sont majoritairement non élargi. Ce n'est pas id�
 * **Typologie de piste :**
 
 <p align="center">
-
-![Typologie de Piste](./graph/typologie.png)
+  <img src="./graph/typologie.png" alt="Typologie de piste">
 </p>
 
 *475 données ne précisent pas la typologie de piste (soit 66,8% des données)*
@@ -63,8 +62,7 @@ N.B. : Une précision est nécessaire sur ce qui est considéré comme sur le tr
 * **Environnement :**
 
 <p align="center">
-
-![Environnement](./graph/environnement.png)
+  <img src="./graph/environnement.png" alt="Environnement">
 </p>
 
 *1 donnée ne précise pas l'environnement (soit 0% des données)*
@@ -74,8 +72,7 @@ Rien de très surprenant ici. L'immense majorité des axes de circulation pour l
 * **Positionnement :**
 
 <p align="center">
-
-![Positionnement](./graph/positionnement.png)
+  <img src="./graph/positionnement.png" alt="Positionnement">
 </p>
 
 *0 donnée ne précise pas le positionnement (soit 0% des données)*
@@ -83,8 +80,7 @@ Rien de très surprenant ici. L'immense majorité des axes de circulation pour l
 * **Réglementation :**
 
 <p align="center">
-
-![Réglementation](./graph/reglementation.png)
+  <img src="./graph/reglementation.png" alt="Réglementation">
 </p>
 
 *24 données ne précisent pas la réglementation (soit 3,3% des données)*
@@ -92,8 +88,7 @@ Rien de très surprenant ici. L'immense majorité des axes de circulation pour l
 * **Zone de circulation apaisée :**
 
 <p align="center">
-
-![Zone de circulation apaisée](./graph/zonecircu.png)
+  <img src="./graph/zonecircu.png" alt="Zone de circulation apaisée">
 </p>
 
 *636 données ne précisent pas la réglementation (soit 89,5% des données)*
