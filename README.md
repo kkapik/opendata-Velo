@@ -1,8 +1,6 @@
-# opendataLyon
+# Open-data Vélo
 
-Quelques analyses des données de l'open data du grand Lyon
+L'objectif de ce répertoire est d'analyser les infrastructures cyclables des principales villes françaises à partir des données disponibles en open-data.
 
-
-Sommaire :
-
-* [Aménagement cyclable de la métropole de Lyon](./velo/)
+## Les villes :
+* [Lyon](./LYON.md)
